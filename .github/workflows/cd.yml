@@ -12,7 +12,7 @@ on:
         required: true
 
 env:
-  REGISTRY: "phosphorescent-dev"
+  REGISTRY: "registry.digitalocean.com/phosphorescent-dev"
   IMAGE_NAME: "phosphorescent-dev-flask"
 
 jobs:
