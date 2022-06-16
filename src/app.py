@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1>Docker & GitHub actions test</h1>"
+    return "<h1>Docker & GitHub actions test!</h1>"
 
 
 if __name__ == "__main__":
