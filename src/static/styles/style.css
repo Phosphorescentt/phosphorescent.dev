@@ -1,0 +1,43 @@
+/* https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4 */
+
+head {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+body {
+  background-color: #22223b;
+  color: #c9ada7;
+
+  font-family: Poppins;
+
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+div {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  width: 50%;
+  display: inline-block;
+
+  text-align: justify;
+  font-size: 20px;
+
+  padding: 25px 25px 25px 25px;
+  margin: 100px 0 0 0;
+
+  background-color: #4a4e69;
+}
+
+i {
+  color: #f2e9e4;
+}

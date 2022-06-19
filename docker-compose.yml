@@ -1,0 +1,8 @@
+version: "1"
+services:
+  flask:
+    ports:
+      - "80:5000"
+    image: phosphorescent-dev-flask
+    volumes: 
+      - ./src:/app

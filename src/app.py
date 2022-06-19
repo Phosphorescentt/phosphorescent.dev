@@ -1,10 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 @app.route("/")
 def index():
-    return "<h1>Docker & GitHub actions test!</h1><br><h4>Hi Caity!</h4>"
+    return render_template("index.html")
 
 
 if __name__ == "__main__":
